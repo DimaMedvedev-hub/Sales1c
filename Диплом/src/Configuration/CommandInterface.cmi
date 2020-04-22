@@ -3,7 +3,7 @@
   <subsystemsOrder>
     <subsystems>Subsystem.Продажи</subsystems>
     <subsystems>Subsystem.Логистика</subsystems>
-    <subsystems>Subsystem.ОбработкаЗаказа</subsystems>
+    <subsystems>7ba07087-abab-4513-ac7c-12ea8893c8b4</subsystems>
     <subsystems>Subsystem.Организация</subsystems>
     <subsystems>Subsystem.СкладИУчет</subsystems>
   </subsystemsOrder>

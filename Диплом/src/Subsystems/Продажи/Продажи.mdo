@@ -16,4 +16,8 @@
   <content>Catalog.Клиенты</content>
   <content>Document.РеализацияТоваров</content>
   <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>Report.ОтчетПоПродажам</content>
+  <content>Report.ОстаткиНаСкладах</content>
+  <content>Report.Резервы</content>
+  <content>Report.ЦеныЗаПериод</content>
 </mdclass:Subsystem>

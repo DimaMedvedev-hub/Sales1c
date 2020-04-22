@@ -28,6 +28,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Заказ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultChoiceForm>Document.Заказ.Form.ФормаВыбора</defaultChoiceForm>
   <registerRecords>AccumulationRegister.ТоварыВНаличии</registerRecords>
   <registerRecords>AccumulationRegister.Резервы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -193,11 +194,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1d1ae176-ab66-4e44-931f-9004a886aecc">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="42617f7c-36d9-4d3c-807d-86310122cd93">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a18690b4-dffb-450e-9b47-1d145e4b08ed">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

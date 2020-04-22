@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de12a425-aca1-4f80-b7aa-1fe8f5583a24">
+  <producedTypes>
+    <objectType typeId="8b39f702-0ce3-419b-87d5-e52de0065119" valueTypeId="b43332cd-bf06-442e-9431-6645d8f2de79"/>
+    <managerType typeId="f0a4b477-d348-4016-821e-6efe152f123a" valueTypeId="deac4ac5-bddf-4055-8f61-7f2e1db4515e"/>
+  </producedTypes>
+  <name>Резервы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Резервы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="88afadfd-0bd3-4f55-8052-34a67a70c213">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

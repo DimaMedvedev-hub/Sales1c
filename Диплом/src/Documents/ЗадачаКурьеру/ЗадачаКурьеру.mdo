@@ -33,10 +33,11 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗадачаКурьеру.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ЗадачаКурьеру.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ЗадачаКурьеру.Form.ФормаВыбора</defaultChoiceForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="a0c39fbe-d963-4c1e-84b7-05f5c2f200b1">
-    <name>ФИО_клиента1</name>
+    <name>ФИО_клиента</name>
     <synonym>
       <key>ru</key>
       <value>ФИО клиента</value>
@@ -56,7 +57,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ea619f1a-fc95-4f3b-97f4-27d9eb7204f7">
-    <name>ИтоговаяСумма1</name>
+    <name>ИтоговаяСумма</name>
     <synonym>
       <key>ru</key>
       <value>Итоговая сумма</value>
@@ -74,7 +75,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="e5773308-955b-4cd5-a17f-b2e93355e35a">
-    <name>Телефон1</name>
+    <name>Телефон</name>
     <synonym>
       <key>ru</key>
       <value>Телефон</value>
@@ -82,7 +83,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -92,7 +93,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ada997e3-68d8-4ca0-81dd-46de4433c3cc">
-    <name>АдресДоставки1</name>
+    <name>АдресДоставки</name>
     <synonym>
       <key>ru</key>
       <value>Адрес доставки</value>
@@ -110,7 +111,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2fa2f985-e913-4d70-b88c-f8201d3ab651">
-    <name>ДатаИВремяДоставки1</name>
+    <name>ДатаИВремяДоставки</name>
     <synonym>
       <key>ru</key>
       <value>Дата и время доставки</value>
@@ -126,7 +127,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c6149bc8-b091-43a7-8fd8-453c81396979">
-    <name>СдачаДляКурьеров1</name>
+    <name>СдачаДляКурьеров</name>
     <synonym>
       <key>ru</key>
       <value>Сдача </value>
@@ -185,6 +186,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="41004aee-5aac-41c5-ac34-8eba1b6ea69f">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Заказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d292d2c6-4f58-4d22-9d08-37ed5b77c35b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="8346d9a4-94b3-486c-93fd-28f512854b7f">
     <name>ФормаДокумента</name>
     <synonym>
@@ -208,6 +243,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма маршрутного листа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="718166f0-995d-453e-b92b-6fd177cda2d2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

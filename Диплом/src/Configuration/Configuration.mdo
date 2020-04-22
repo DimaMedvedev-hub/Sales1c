@@ -31,7 +31,6 @@
   </languages>
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Логистика</subsystems>
-  <subsystems>Subsystem.ОбработкаЗаказа</subsystems>
   <subsystems>Subsystem.СкладИУчет</subsystems>
   <subsystems>Subsystem.Организация</subsystems>
   <commonPictures>CommonPicture.Продажи</commonPictures>
@@ -42,7 +41,6 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПодсистемаПродажиПросмотр</roles>
   <roles>Role.ПодсистемаЛогистикаПросмотр</roles>
-  <roles>Role.ПодсистемаОбработкаЗаказаПросмотр</roles>
   <roles>Role.ПодсистемаСкладИУчетПросмотр</roles>
   <roles>Role.ПодсистемаОрганизацияПросмотр</roles>
   <roles>Role.СправочникНоменклатураПросмотр</roles>
@@ -51,14 +49,14 @@
   <roles>Role.СправочникКлиентыВсеДействия</roles>
   <roles>Role.СправочникСотрудникиПросмотр</roles>
   <roles>Role.СотрудникиСправочникВсеДействия</roles>
+  <roles>Role.СправочникПоставщикиВсеДействия</roles>
+  <roles>Role.СправочникПоставщикиПросмотр</roles>
   <roles>Role.ДокументЗаказПросмотр</roles>
   <roles>Role.ДокументЗаказВсеКромеУдаления</roles>
   <roles>Role.ДокументЗаказУдаление</roles>
   <roles>Role.ДокументПриходНаклПросмотр</roles>
   <roles>Role.ДокументПриходНаклВсеКромеУдаления</roles>
   <roles>Role.ДокументПриходНаклУдаление</roles>
-  <roles>Role.ДокументТоварНаклПросмотр</roles>
-  <roles>Role.ДокументТоварНаклВсеКромеУдаления</roles>
   <roles>Role.ДокументТоварНаклУдаление</roles>
   <roles>Role.ДокументЗадачаКурьеруПросмотр</roles>
   <roles>Role.ДокументЗадачаКурьеруВсеКромеУдаления</roles>
@@ -66,14 +64,24 @@
   <roles>Role.ДокументРеализацияТоваровПросмотр</roles>
   <roles>Role.ДокументРеализацияТоваровВсеКромеУдаления</roles>
   <roles>Role.ДокументРеализацияТоваровУдаление</roles>
+  <roles>Role.ДокументУстановкаЦенВсеКромеУдаления</roles>
+  <roles>Role.ДокументУстановкаЦенУдаление</roles>
+  <roles>Role.ДокументУстановкаЦенПросмотр</roles>
+  <roles>Role.ДокументМаршрутныйЛистВсеКромуУдаления</roles>
+  <roles>Role.ДокументМаршрутныйЛистУдаление</roles>
+  <roles>Role.ДокументМаршрутныйЛистПросмотр</roles>
   <roles>Role.РегистрНакопленияТоварыВНаличииПросмотр</roles>
   <roles>Role.РегистрНакопленияТоварыВНаличииВсеДействия</roles>
   <roles>Role.РегистрНакопленияРезервыПросмотр</roles>
   <roles>Role.РегистрНакопленияРезервыВсеДействия</roles>
   <roles>Role.РегистрНакопленияПродажиПросмотр</roles>
   <roles>Role.РегистрНакопленияПродажиВсеДействия</roles>
-  <roles>Role.ДокументУстановкаЦенВсеКромеУдаления</roles>
-  <roles>Role.ДокументУстановкаЦенУдаление</roles>
+  <roles>Role.РегистрСведенийЦеныПросмотр</roles>
+  <roles>Role.РегистрСведенийЦеныВсеДействия</roles>
+  <roles>Role.ОтчетПоПродажам</roles>
+  <roles>Role.ОтчетОстаткиНаСкладах</roles>
+  <roles>Role.ОтчетРезарвы</roles>
+  <roles>Role.ОтчетЦенаЗаПериод</roles>
   <filterCriteria>FilterCriterion.ЗадачаКурьеруСвежая</filterCriteria>
   <commonModules>CommonModule.ТиповыеРассчеты</commonModules>
   <commonModules>CommonModule.ПроверкаОстатков</commonModules>
@@ -91,6 +99,10 @@
   <enums>Enum.СпособПолученияЗаказа</enums>
   <enums>Enum.СпособОплаты</enums>
   <enums>Enum.Сдача</enums>
+  <reports>Report.ОтчетПоПродажам</reports>
+  <reports>Report.ОстаткиНаСкладах</reports>
+  <reports>Report.Резервы</reports>
+  <reports>Report.ЦеныЗаПериод</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВНаличии</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Резервы</accumulationRegisters>

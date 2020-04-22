@@ -3,63 +3,43 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>Document.ЗадачаКурьеру.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.Заказ.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.Клиенты.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.МаршрутныйЛист.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.Поставщики.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.ПриходнаяНакладная.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.РеализацияТоваров.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.Сотрудники.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.УстановкаЦен.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.ЗадачаКурьеру.StandardCommand.Create</command>
