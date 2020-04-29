@@ -103,6 +103,7 @@
   <reports>Report.ОстаткиНаСкладах</reports>
   <reports>Report.Резервы</reports>
   <reports>Report.ЦеныЗаПериод</reports>
+  <reports>Report.АнализДоступности</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыВНаличии</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Резервы</accumulationRegisters>

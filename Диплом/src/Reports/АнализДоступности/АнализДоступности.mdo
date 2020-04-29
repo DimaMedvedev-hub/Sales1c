@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56107a6d-5785-4488-9370-83c099899e1d">
+  <producedTypes>
+    <objectType typeId="782c395f-d3de-4884-8a20-24bbd345e98a" valueTypeId="74239ea3-7d1f-4555-8b39-940dca0e6238"/>
+    <managerType typeId="25eb33d2-1274-4ada-b308-11f78daf1361" valueTypeId="9f0126dc-70a6-4fdf-95e6-126abdff9ad8"/>
+  </producedTypes>
+  <name>АнализДоступности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ доступности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализДоступности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bafab352-55f8-4a6a-a435-3b14248decf6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
